@@ -1,0 +1,28 @@
+.post{
+    height: 250px;
+    width:250px;
+border: 1px solid black;
+position: relative;
+display:block;
+}
+.firstname{
+    border: 1px solid greenyellow;
+    position:absolute;
+    display: none;
+    top:10px;
+    left :10px;
+}
+.secondname{
+    border: 1px solid red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    display:block; 
+     
+}
+.post:hover .firstname{
+    display: block;
+}
+.post:hover .secondname{
+    display: none;
+}

@@ -1,0 +1,31 @@
+
+.parentbox{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+    display: block;
+}
+
+.child1{
+    border: 1px solid red;
+    position: absolute;
+    /* bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px; */
+    display: none;
+}
+.child2{
+    border: 1px solid green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.parentbox:hover .child1{
+    display: block;
+}

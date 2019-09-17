@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup Table</title>
+        <style>
+            table,th,tr,td {
+               border: 1px solid black; 
+               border-collapse: collapse;
+            }
+            .cals{
+                text-align: center;
+            }
+            td{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SignUP Table</h1>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="enter your name" ></td>
+            </tr>
+            <tr>
+                <td>Skills</td>
+                <td>
+                        <select>
+                            <option disabled selected value>Select a Skill</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Singing">Singing</option>
+                            <option value="Dance">Dance</option>
+                            <option value="Running">Running</option>
+                        </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>mark1</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>mark2</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>mark3</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="cals">
+                    <button>calculate</button> 
+                </td>
+            </tr>
+            <tr>
+                <td>total</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>grade</td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
