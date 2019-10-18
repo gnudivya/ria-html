@@ -1,0 +1,152 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.headerblue{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.box{
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+.join{
+    text-align: center;
+    font-size: 30px;
+}
+.start{
+    text-align: center;
+    
+}
+.cardheading{
+    background-color:green;
+    height: 50px;
+    padding: 10px;
+}
+.card1{
+    width: 250px;
+    height: 300px;
+    border:1px solid gray;
+    display: inline-block;
+    margin-right: 10px;
+}
+.career{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.get{
+    text-align: center;
+    color: aliceblue
+}
+.selectplan{
+    border: 1px solid blue;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    color: blue;
+}
+.part1{
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin-right: 10px;
+}
+.cardheading2{
+    background-color:blue;
+    height: 50px;
+    padding: 10px;
+}
+.business{
+    text-align: center;
+    color: aliceblue;
+}
+.grow{
+    text-align: center;
+    color: aliceblue;
+}
+.selectplan2{
+    border: 1px solid blue;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    color: blue;
+}
+.part2{
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    display: inline-block; 
+    margin-right: 10px;
+}
+.cardheading3{
+    background-color: blueviolet;
+    height: 50px;
+    padding: 10px;
+}
+.sales{
+    text-align: center;
+    color: aliceblue;
+}
+.unlock{
+    text-align: center;
+    color: aliceblue;
+}
+.selectplan3{
+    border: 1px solid blue;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    color: blue;
+}
+.part3{
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    display: inline-block;  
+
+}
+.cardheading4{
+    background-color:red;
+    height: 50px;
+    padding: 10px;
+}
+.hiring{
+    text-align: center;
+    color: aliceblue;
+}
+.find{
+    text-align: center;
+    color: aliceblue;
+}
+.selectplan4{
+    border: 1px solid blue;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    color: blue;
+}
+
+ul{
+    height: 125px;
+}
+
+.cardTitle{
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sign forms</title>
+        <body>
+            <style>
+.div1{
+    display:inline-block;
+}
+.lablewidth{
+    width:200px;
+
+}
+.input1{
+border-radius:3px; 
+border:1px solid gray;
+padding: 10px;
+}
+
+.place{
+    margin-bottom:10px;
+}
+.sign{
+    border:1px solid skyblue;
+    border-radius: 5px;
+    background-color: skyblue;
+    padding: 10px;
+    color:white;
+}
+.sign1{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+            </style>
+            <h1>sign forms</h1>
+            <form  form action="/action_page.php" method="POST">
+                <div class="place">
+                        <div class="div1 lablewidth">catagory<sup>*</sup></div> 
+                        <div class="div1"><input type="text" placeholder ="Skills Catagory" class="input1"></div>
+                </div>
+                <div class="place">
+                        <div class="div1 lablewidth">contact Number<sup>*</sup></div> 
+                        <div class="div1"><input type="text" placeholder="provide Your number" class="input1"></div>      
+                </div>
+                <div class="place">
+                    <div class="div1 lablewidth">your Location<sup>*</sup></div>
+                    <div class="div1"><input type="text" placeholder="Your Pincode and City" class="input1"></div>
+                </div>
+                <div class="place ">
+                    <div class="div1 lablewidth"></div>
+                    <div class="div1" ><input type="checkbox">Agree With the Terms and Conditions</div>
+                </div>
+                <div class="place">
+                    <div class="div1 lablewidth"></div>
+                    <div class="div1"><button class="sign">Sign Up</button> or <button class="sign1">Sign Up with Facebook</button></div>
+                </div>
+            
+            
+            </form>
+        </body>
+
+    </head>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    p:nth-child(2),:nth-child(3){
+        color:red;
+    }
+
+    p:first-child{
+        color: green;
+    }
+
+    p:last-child{
+        color: brown;
+    }
+
+    p:empty{
+        background: yellow;
+        width: 30px;
+        height: 60px;
+    }
+    .p1::before{
+        content:url('https://image.shutterstock.com/image-vector/smiley-vector-happy-face-260nw-408014413.jpg');
+    }
+
+    .p1::selection{
+        background: brown;
+        color: yellow;
+    }
+    p::first-letter{
+        color:red;
+        font-size: 66px;
+    }
+ .p4{
+     display: inline;
+ }
+
+ .div1{
+     background: green;
+     width: 500px;
+     height:200px;
+     margin:auto;
+ }
+
+ .div2{
+     background: yellow;
+     max-width: 500px;
+     height: 200px;
+     margin:auto;
+ }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p class="p1">Hello this is css1</p>
+        <p>Hello this is css2</p>
+        <p class="p3">Hello this is css3</p>
+        <p>Hello this is css4</p>
+        <p>hello this is css5 </p>
+        <input type="text" placeholder="enter your name">
+    </div>
+    <div class="div1">
+            This div element has width: 500px
+    </div>
+
+    <div class="div2">
+            This div element has width: 500px
+    </div>
+</body>
+</html>
